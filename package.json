@@ -1,0 +1,35 @@
+{
+  "name": "brazebee-sdk",
+  "version": "0.1.1",
+  "description": "Official TypeScript SDK for Brazebee customer journey tracking",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Brazebee <dev@brazebee.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brazebee/brazebee-sdk-typescript"
+  },
+  "keywords": [
+    "brazebee",
+    "customer",
+    "journey",
+    "analytics",
+    "tracking",
+    "events",
+    "churn",
+    "retention"
+  ],
+  "files": [
+    "**/*.js",
+    "**/*.d.ts"
+  ],
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.7.0",
+    "qs": "^6.11.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
